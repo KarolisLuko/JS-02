@@ -11,10 +11,10 @@ console.log (skaicius1 * skaicius2 * skaicius3 * skaicius4);
 console.log(skaicius1, skaicius2, skaicius3, skaicius4);
 
 var temp;
-temp = skaicius1;
-skaicius1 = skaicius2;
-skaicius2 = temp;
+temp = skaicius1;//=2
+skaicius1 = skaicius2;//=3
+skaicius2 = temp;//=2
 
-skaicius3 += skaicius4; 
+skaicius3 = skaicius3 + skaicius4; 
 skaicius4 = skaicius3 - skaicius4;
-skaicius3 -= skaicius4;
+skaicius3 = skaicius3 - skaicius4;
